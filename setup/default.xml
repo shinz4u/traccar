@@ -4,6 +4,20 @@
 
 <properties>
 
+    <!--Email Configuration-->
+
+    <entry key='mail.smtp.host'>mail.drivingqatar.com</entry>
+    <!--for STARTTLS-->
+    <entry key='mail.smtp.port'>25</entry>
+    <entry key='mail.smtp.starttls.enable'>false</entry>
+    <!--for SSL-->
+    <entry key='mail.smtp.port'>25</entry>
+    <entry key='mail.smtp.ssl.enable'>false</entry>
+    <entry key='mail.smtp.from'>alert@drivingqatar.com</entry>
+    <entry key='mail.smtp.auth'>true</entry>
+    <entry key='mail.smtp.username'>alert@drivingqatar.com</entry>
+    <entry key='mail.smtp.password'>alert.12345</entry>
+
     <!-- SERVER CONFIG -->
 
     <entry key='web.enable'>true</entry>

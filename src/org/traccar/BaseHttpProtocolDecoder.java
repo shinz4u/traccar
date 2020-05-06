@@ -35,5 +35,4 @@ public abstract class BaseHttpProtocolDecoder extends BaseProtocolDecoder {
             channel.write(response);
         }
     }
-
 }
